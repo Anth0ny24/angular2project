@@ -1,0 +1,35 @@
+h2{
+    font-family: 'Exo 2', sans-serif;
+}
+
+p, h3, h4{
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+#cityArea{
+    font-size: 13px;
+    font-style: italic;
+    color:#a9a9a9;
+}
+
+img{
+    background-size: cover;
+    width: 320px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-info{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 15px;
+}
+
+.thumbnail{
+    min-height: 360px;
+    max-width: 330px;
+    min-width: 329px;
+}

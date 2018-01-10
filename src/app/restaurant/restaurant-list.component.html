@@ -1,0 +1,22 @@
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Exo+2');
+</style>
+
+<h2>Restaurants list</h2>
+
+<hr><br>
+<div *ngFor="let resto of restos">
+<div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <div *ngFor="let images of resto.photos" >
+            <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=640&maxheight=640&photoreference={{images.photo_reference}}&key=AIzaSyA2VI_ZemIgFgbXo7sHtUms7E7NhURqhTw" alt="img">
+          </div>
+              <div class="caption">
+                <h3>{{resto.name}}</h3>
+                  <p id="cityArea">{{resto.vicinity}}</p>
+                  <a [routerLink]="['/restaurant', resto.id]">
+                    <button type="button" class="btn btn-info center-block" data-toggle="modal" data-target="#myModal">Details <span class="glyphicon glyphicon-info-sign"></span></button>
+                  </a>
+              </div>
+         </div>
+      </div>

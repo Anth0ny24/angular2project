@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "name":"The Box",
+        "description":"Live Escape Game très immersif à deux pas de la gare de Metz. Plongés dans l’un de nos univers, vous avez 60 minutes pour trouver les indices, résoudre nos énigmes originales et retrouver la liberté. Cartel Vous êtes des agents du FBI infiltrés dans le dangereux Cartel de Mexico. Votre mission : trouver des preuves des activités illégales du cartel et l'identité de son chef afin de démanteler l'organisation criminelle. Tout se passait bien jusqu’au jour où votre couverture est tombée ! Réussirez-vous à vous échapper à temps et à terminer votre mission ? Le Casse du siècle Votre équipe de cambrioleurs de haut vol a été recrutée par un mystérieux complice. La plan : Vous allez vous attaquer à un prestigieux diamantaire du Diamond Center d'Anvers. Finesse, discretion et esprit d'équipe seront indispensables pour réussir cette mission. Parviendrez-vous à déjouer les systèmes de sécurité et à vous échapper avec votre butin ?",
+        "area":"Lorraine",
+        "city":"Metz",
+        "address":"6 Rue Clovis",
+        "areaCode":"57000",
+        "website":"https://www.the-box.fr/",
+        "number":"+333 68.38.53.00"
+    },
+    {
+        "id":2,
+        "name":"KinéBowl",
+        "description":"Découvrez notre grand établissement de loisir situé à proximité de Metz. Vous trouverez une ambiance chaleureuse et conviviale dans un espace regroupant bowling, billard et bar. Vous souhaitez vous détendre et déguster un verre dans un cadre confortable et très moderne ? N’hésitez pas à visiter notre grand bar central et à profiter de nos prestations de qualité.",
+        "area":"Lorraine",
+        "city":"Saint-Julien-Les-Metz",
+        "address":"14 avenue Paul Langevin",
+        "areaCode":" 57070 ",
+        "website":"http://www.kinebowl.com/",
+        "number":"+333 66.72.38.62",
+        "state":false
+    },
+    {
+        "id":3,
+        "name":"Ice Arena",
+        "description":"La patinoire de Metz est le rendez-vous incontournable de tous les amateurs du patin à glace. Elle se nomme désormais Ice Arena de Metz. Elle est située à deux pas du complexe sportif St-Symphorien, du plan d'eau et d'un des skate parks de Metz.",
+        "area":"Lorraine",
+        "city":"Longeville-lès-Metz",
+        "address":"Boulevard Saint-Symphorien",
+        "areaCode":"57050",
+        "website":"http://www.icearena-metz.fr/",
+        "number":"+333 87.66.47.30"
+    },
+    {
+        "id":4,
+        "name":"LaserMaxx",
+        "description":"Premier centre laser de Lorraine, le Laser game à Saint Julien Les Metz, vous propose une expérience unique pour vos sorties entre amis, en famille ou entre collègues. Un accueil de 200 m2 avec espace détente est à votre disposition avec un bar sans alcool avec boissons fraîches, boissons chaudes et confiseries. Le Lasermaxx utilise la dernière génération de matériel laser EVO 5. Ce laser est inoffensif pour les yeux (classe 2A). Possibilité de jouer jusqu’à 6 équipes et 30 joueurs en simultané. Venez découvrir le principe de jeu de votre laser game en Moselle. Retrouvez également les tarifs abordables et attractifs de ce laser game (Metz).",
+        "area":"Lorraine",
+        "city":"Saint-Julien-Les-Metz",
+        "address":"14 avenue Paul Langevin",
+        "areaCode":"57070",
+        "website":"http://www.lasermaxx-metz.fr/",
+        "number":"+333 87.75.11.11"
+    }
+]
