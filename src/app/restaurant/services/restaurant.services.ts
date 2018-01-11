@@ -56,9 +56,9 @@ export class RestaurantServices {
         if (!this.data) {
             return undefined;
         }
-        const result = this.data.result.filter((resto: any) => resto.id === id);
-        alert("Dans restoServices: "+ result);
-        console.log("Dans restoServices: "+ result);
+
+        const result = this.data.results.filter((resto: any) => resto.id === id);
+
         if (result.length > 0) {
             return result[0]; // recupère le premier élément du tableau
         }

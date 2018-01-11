@@ -10,7 +10,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var restaurant_class_1 = require("./class/restaurant.class");
 var restaurant_services_1 = require("./services/restaurant.services");
 var RestaurantDetailsComponent = (function () {
     function RestaurantDetailsComponent(route, router, _restoServices) {
@@ -22,8 +21,9 @@ var RestaurantDetailsComponent = (function () {
     RestaurantDetailsComponent.prototype.ngOnInit = function () {
         //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
         //Add 'implements OnInit' to the class.
-        var id = +this.route.snapshot.params['id'];
+        var id = this.route.snapshot.params['id'];
         this.resto = this._restoServices.getRestaurantById(id);
+        console.log(this.resto);
         console.log("ID detailPage " + id);
     };
     RestaurantDetailsComponent.prototype.goBack = function () {
@@ -31,10 +31,6 @@ var RestaurantDetailsComponent = (function () {
     };
     return RestaurantDetailsComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", restaurant_class_1.Restaurant)
-], RestaurantDetailsComponent.prototype, "rt", void 0);
 RestaurantDetailsComponent = __decorate([
     core_1.Component({
         moduleId: module.id,

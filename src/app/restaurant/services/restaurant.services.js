@@ -54,9 +54,7 @@ var RestaurantServices = (function () {
         if (!this.data) {
             return undefined;
         }
-        var result = this.data.result.filter(function (resto) { return resto.id === id; });
-        alert("Dans restoServices: " + result);
-        console.log("Dans restoServices: " + result);
+        var result = this.data.results.filter(function (resto) { return resto.id === id; });
         if (result.length > 0) {
             return result[0]; // recupère le premier élément du tableau
         }

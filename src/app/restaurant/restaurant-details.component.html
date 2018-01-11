@@ -1,6 +1,5 @@
 <style>@import url('https://fonts.googleapis.com/css?family=Exo+2');</style>
 
-<resto-details [rt]="resto"></resto-details>
 
 <br>
        <!-- Modal -->
@@ -10,12 +9,12 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h2 class="modal-title" id="myModalLabel">{{ rt.name }}</h2>
+            <h2 class="modal-title" id="myModalLabel">{{ resto.name }}</h2>
           </div>
           <div class="modal-body">
               <!-- Description du restaurant  -->
-              <div>{{ rt.name }}</div>
-              <div>{{ rt.vicinity | uppercase}}</div><br>
+              <div>{{ resto.name }}</div>
+              <div>{{ resto.vicinity | uppercase}}</div><br>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal" (click)='goBack()'>Close</button>
@@ -23,7 +22,7 @@
         </div>
       </div>
     </div>
-  </div>			  
+  </div>
 <div *ngIf="!resto">Pas de Restaurant correspondant trouvée</div>
 
 

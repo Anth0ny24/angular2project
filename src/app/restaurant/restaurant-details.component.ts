@@ -5,7 +5,7 @@ import { Restaurant } from "./class/restaurant.class";
 import { RestaurantServices } from "./services/restaurant.services";
 
 @Component({
-    moduleId:module.id,
+    moduleId: module.id,
     selector:"resto-details",
     templateUrl:"restaurant-details.component.html",
     styleUrls:['./css/restaurant.css']
@@ -13,7 +13,6 @@ import { RestaurantServices } from "./services/restaurant.services";
 
 export class RestaurantDetailsComponent implements OnInit{
 
-    @Input() rt:Restaurant;
     resto:Restaurant;
     title:string ="";
 
@@ -23,8 +22,10 @@ export class RestaurantDetailsComponent implements OnInit{
             //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
             //Add 'implements OnInit' to the class.
 
-            let id= +this.route.snapshot.params['id'];
+            let id = this.route.snapshot.params['id'];
             this.resto= this._restoServices.getRestaurantById(id);
+
+            console.log(this.resto);
             console.log("ID detailPage "+ id);
         }
 
